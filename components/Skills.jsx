@@ -1,5 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import Tailwind from '../public/assets/skills/tailwind.png'
+import github1 from '../public/assets/skills/github1.png'
+import react from '../public/assets/skills/react.png'
+import html from '../public/assets/skills/html.png'
+import css from '../public/assets/skills/css.png'
+import js from '../public/assets/skills/javascript.png'
+
+
 const Skills = () => {
   return (
     <div className="w-full lg:h-screen p-2" id="skill">
@@ -13,7 +21,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.png"
+                 src={html}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -28,7 +36,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css.png"
+                  src={css}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -43,7 +51,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github1.png"
+                  src={github1}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -58,7 +66,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
+                  src={js}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -73,7 +81,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto " >
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                   src={Tailwind}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -88,7 +96,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src={react}
                   width="64px"
                   height="64px"
                   alt="/"
