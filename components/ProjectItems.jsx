@@ -10,7 +10,7 @@ const ProjectItems = ({backgroundImg,projectUrl,title}) => {
                <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
                    <h3 className="text-2xl tracking-wider text-center text-white">{title}</h3>
                    <h3 className="pb-4 pt-2  tracking-wider text-center text-white">React js</h3>
-                   <a href={projectUrl} target='_blank' >
+                   <a href={projectUrl} target='_blank' rel="noreferrer" >
                        <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">View</p> 
                    </a>
                </div>
